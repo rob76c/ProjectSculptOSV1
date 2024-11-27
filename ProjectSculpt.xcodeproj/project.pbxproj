@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1E21CDC2CF6A1BC000CE0D3 /* ProjectSculpt Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F1E21CDB2CF6A1BC000CE0D3 /* ProjectSculpt Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F1E21CE12CF6A1BC000CE0D3 /* ProjectSculptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E21CE02CF6A1BC000CE0D3 /* ProjectSculptApp.swift */; };
+		F1E21CE32CF6A1BC000CE0D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E21CE22CF6A1BC000CE0D3 /* ContentView.swift */; };
+		F1E21CE52CF6A1C2000CE0D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E21CE42CF6A1C2000CE0D3 /* Assets.xcassets */; };
+		F1E21CE82CF6A1C2000CE0D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E21CE72CF6A1C2000CE0D3 /* Preview Assets.xcassets */; };
+		F1E21CF22CF6A1C2000CE0D3 /* ProjectSculpt_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E21CF12CF6A1C2000CE0D3 /* ProjectSculpt_Watch_AppTests.swift */; };
+		F1E21CFC2CF6A1C2000CE0D3 /* ProjectSculpt_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E21CFB2CF6A1C2000CE0D3 /* ProjectSculpt_Watch_AppUITests.swift */; };
+		F1E21CFE2CF6A1C2000CE0D3 /* ProjectSculpt_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E21CFD2CF6A1C2000CE0D3 /* ProjectSculpt_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1E21CDD2CF6A1BC000CE0D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1E21CCF2CF6A1BC000CE0D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1E21CDA2CF6A1BC000CE0D3;
+			remoteInfo = "ProjectSculpt Watch App";
+		};
+		F1E21CEE2CF6A1C2000CE0D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1E21CCF2CF6A1BC000CE0D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1E21CDA2CF6A1BC000CE0D3;
+			remoteInfo = "ProjectSculpt Watch App";
+		};
+		F1E21CF82CF6A1C2000CE0D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1E21CCF2CF6A1BC000CE0D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1E21CDA2CF6A1BC000CE0D3;
+			remoteInfo = "ProjectSculpt Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F1E21D042CF6A1C2000CE0D3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F1E21CDC2CF6A1BC000CE0D3 /* ProjectSculpt Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F1E21CD52CF6A1BC000CE0D3 /* ProjectSculpt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectSculpt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E21CDB2CF6A1BC000CE0D3 /* ProjectSculpt Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProjectSculpt Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E21CE02CF6A1BC000CE0D3 /* ProjectSculptApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSculptApp.swift; sourceTree = "<group>"; };
+		F1E21CE22CF6A1BC000CE0D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F1E21CE42CF6A1C2000CE0D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1E21CE72CF6A1C2000CE0D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1E21CED2CF6A1C2000CE0D3 /* ProjectSculpt Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProjectSculpt Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E21CF12CF6A1C2000CE0D3 /* ProjectSculpt_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSculpt_Watch_AppTests.swift; sourceTree = "<group>"; };
+		F1E21CF72CF6A1C2000CE0D3 /* ProjectSculpt Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProjectSculpt Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E21CFB2CF6A1C2000CE0D3 /* ProjectSculpt_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSculpt_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		F1E21CFD2CF6A1C2000CE0D3 /* ProjectSculpt_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSculpt_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1E21CD82CF6A1BC000CE0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E21CEA2CF6A1C2000CE0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E21CF42CF6A1C2000CE0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1E21CCE2CF6A1BC000CE0D3 = {
+			isa = PBXGroup;
+			children = (
+				F1E21CDF2CF6A1BC000CE0D3 /* ProjectSculpt Watch App */,
+				F1E21CF02CF6A1C2000CE0D3 /* ProjectSculpt Watch AppTests */,
+				F1E21CFA2CF6A1C2000CE0D3 /* ProjectSculpt Watch AppUITests */,
+				F1E21CD62CF6A1BC000CE0D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1E21CD62CF6A1BC000CE0D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1E21CD52CF6A1BC000CE0D3 /* ProjectSculpt.app */,
+				F1E21CDB2CF6A1BC000CE0D3 /* ProjectSculpt Watch App.app */,
+				F1E21CED2CF6A1C2000CE0D3 /* ProjectSculpt Watch AppTests.xctest */,
+				F1E21CF72CF6A1C2000CE0D3 /* ProjectSculpt Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1E21CDF2CF6A1BC000CE0D3 /* ProjectSculpt Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				F1E21CE02CF6A1BC000CE0D3 /* ProjectSculptApp.swift */,
+				F1E21CE22CF6A1BC000CE0D3 /* ContentView.swift */,
+				F1E21CE42CF6A1C2000CE0D3 /* Assets.xcassets */,
+				F1E21CE62CF6A1C2000CE0D3 /* Preview Content */,
+			);
+			path = "ProjectSculpt Watch App";
+			sourceTree = "<group>";
+		};
+		F1E21CE62CF6A1C2000CE0D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F1E21CE72CF6A1C2000CE0D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F1E21CF02CF6A1C2000CE0D3 /* ProjectSculpt Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1E21CF12CF6A1C2000CE0D3 /* ProjectSculpt_Watch_AppTests.swift */,
+			);
+			path = "ProjectSculpt Watch AppTests";
+			sourceTree = "<group>";
+		};
+		F1E21CFA2CF6A1C2000CE0D3 /* ProjectSculpt Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1E21CFB2CF6A1C2000CE0D3 /* ProjectSculpt_Watch_AppUITests.swift */,
+				F1E21CFD2CF6A1C2000CE0D3 /* ProjectSculpt_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "ProjectSculpt Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1E21CD42CF6A1BC000CE0D3 /* ProjectSculpt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E21D052CF6A1C2000CE0D3 /* Build configuration list for PBXNativeTarget "ProjectSculpt" */;
+			buildPhases = (
+				F1E21CD32CF6A1BC000CE0D3 /* Resources */,
+				F1E21D042CF6A1C2000CE0D3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1E21CDE2CF6A1BC000CE0D3 /* PBXTargetDependency */,
+			);
+			name = ProjectSculpt;
+			productName = ProjectSculpt;
+			productReference = F1E21CD52CF6A1BC000CE0D3 /* ProjectSculpt.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		F1E21CDA2CF6A1BC000CE0D3 /* ProjectSculpt Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E21D012CF6A1C2000CE0D3 /* Build configuration list for PBXNativeTarget "ProjectSculpt Watch App" */;
+			buildPhases = (
+				F1E21CD72CF6A1BC000CE0D3 /* Sources */,
+				F1E21CD82CF6A1BC000CE0D3 /* Frameworks */,
+				F1E21CD92CF6A1BC000CE0D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ProjectSculpt Watch App";
+			productName = "ProjectSculpt Watch App";
+			productReference = F1E21CDB2CF6A1BC000CE0D3 /* ProjectSculpt Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1E21CEC2CF6A1C2000CE0D3 /* ProjectSculpt Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E21D082CF6A1C2000CE0D3 /* Build configuration list for PBXNativeTarget "ProjectSculpt Watch AppTests" */;
+			buildPhases = (
+				F1E21CE92CF6A1C2000CE0D3 /* Sources */,
+				F1E21CEA2CF6A1C2000CE0D3 /* Frameworks */,
+				F1E21CEB2CF6A1C2000CE0D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1E21CEF2CF6A1C2000CE0D3 /* PBXTargetDependency */,
+			);
+			name = "ProjectSculpt Watch AppTests";
+			productName = "ProjectSculpt Watch AppTests";
+			productReference = F1E21CED2CF6A1C2000CE0D3 /* ProjectSculpt Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1E21CF62CF6A1C2000CE0D3 /* ProjectSculpt Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E21D0B2CF6A1C2000CE0D3 /* Build configuration list for PBXNativeTarget "ProjectSculpt Watch AppUITests" */;
+			buildPhases = (
+				F1E21CF32CF6A1C2000CE0D3 /* Sources */,
+				F1E21CF42CF6A1C2000CE0D3 /* Frameworks */,
+				F1E21CF52CF6A1C2000CE0D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1E21CF92CF6A1C2000CE0D3 /* PBXTargetDependency */,
+			);
+			name = "ProjectSculpt Watch AppUITests";
+			productName = "ProjectSculpt Watch AppUITests";
+			productReference = F1E21CF72CF6A1C2000CE0D3 /* ProjectSculpt Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1E21CCF2CF6A1BC000CE0D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F1E21CD42CF6A1BC000CE0D3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F1E21CDA2CF6A1BC000CE0D3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F1E21CEC2CF6A1C2000CE0D3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F1E21CDA2CF6A1BC000CE0D3;
+					};
+					F1E21CF62CF6A1C2000CE0D3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F1E21CDA2CF6A1BC000CE0D3;
+					};
+				};
+			};
+			buildConfigurationList = F1E21CD22CF6A1BC000CE0D3 /* Build configuration list for PBXProject "ProjectSculpt" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1E21CCE2CF6A1BC000CE0D3;
+			productRefGroup = F1E21CD62CF6A1BC000CE0D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1E21CD42CF6A1BC000CE0D3 /* ProjectSculpt */,
+				F1E21CDA2CF6A1BC000CE0D3 /* ProjectSculpt Watch App */,
+				F1E21CEC2CF6A1C2000CE0D3 /* ProjectSculpt Watch AppTests */,
+				F1E21CF62CF6A1C2000CE0D3 /* ProjectSculpt Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1E21CD32CF6A1BC000CE0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E21CD92CF6A1BC000CE0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E21CE82CF6A1C2000CE0D3 /* Preview Assets.xcassets in Resources */,
+				F1E21CE52CF6A1C2000CE0D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E21CEB2CF6A1C2000CE0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E21CF52CF6A1C2000CE0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1E21CD72CF6A1BC000CE0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E21CE32CF6A1BC000CE0D3 /* ContentView.swift in Sources */,
+				F1E21CE12CF6A1BC000CE0D3 /* ProjectSculptApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E21CE92CF6A1C2000CE0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E21CF22CF6A1C2000CE0D3 /* ProjectSculpt_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E21CF32CF6A1C2000CE0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E21CFC2CF6A1C2000CE0D3 /* ProjectSculpt_Watch_AppUITests.swift in Sources */,
+				F1E21CFE2CF6A1C2000CE0D3 /* ProjectSculpt_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1E21CDE2CF6A1BC000CE0D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1E21CDA2CF6A1BC000CE0D3 /* ProjectSculpt Watch App */;
+			targetProxy = F1E21CDD2CF6A1BC000CE0D3 /* PBXContainerItemProxy */;
+		};
+		F1E21CEF2CF6A1C2000CE0D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1E21CDA2CF6A1BC000CE0D3 /* ProjectSculpt Watch App */;
+			targetProxy = F1E21CEE2CF6A1C2000CE0D3 /* PBXContainerItemProxy */;
+		};
+		F1E21CF92CF6A1C2000CE0D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1E21CDA2CF6A1BC000CE0D3 /* ProjectSculpt Watch App */;
+			targetProxy = F1E21CF82CF6A1C2000CE0D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F1E21CFF2CF6A1C2000CE0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1E21D002CF6A1C2000CE0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F1E21D022CF6A1C2000CE0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProjectSculpt Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = A6Z2BSV8WJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ProjectSculpt;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robbie.ProjectSculpt.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		F1E21D032CF6A1C2000CE0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProjectSculpt Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = A6Z2BSV8WJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ProjectSculpt;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robbie.ProjectSculpt.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		F1E21D062CF6A1C2000CE0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6Z2BSV8WJ;
+				INFOPLIST_KEY_CFBundleDisplayName = ProjectSculpt;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robbie.ProjectSculpt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F1E21D072CF6A1C2000CE0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6Z2BSV8WJ;
+				INFOPLIST_KEY_CFBundleDisplayName = ProjectSculpt;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robbie.ProjectSculpt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1E21D092CF6A1C2000CE0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6Z2BSV8WJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robbie.ProjectSculpt-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectSculpt Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectSculpt Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		F1E21D0A2CF6A1C2000CE0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6Z2BSV8WJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robbie.ProjectSculpt-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectSculpt Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectSculpt Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		F1E21D0C2CF6A1C2000CE0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6Z2BSV8WJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robbie.ProjectSculpt-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ProjectSculpt Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		F1E21D0D2CF6A1C2000CE0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6Z2BSV8WJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robbie.ProjectSculpt-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ProjectSculpt Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1E21CD22CF6A1BC000CE0D3 /* Build configuration list for PBXProject "ProjectSculpt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E21CFF2CF6A1C2000CE0D3 /* Debug */,
+				F1E21D002CF6A1C2000CE0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1E21D012CF6A1C2000CE0D3 /* Build configuration list for PBXNativeTarget "ProjectSculpt Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E21D022CF6A1C2000CE0D3 /* Debug */,
+				F1E21D032CF6A1C2000CE0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1E21D052CF6A1C2000CE0D3 /* Build configuration list for PBXNativeTarget "ProjectSculpt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E21D062CF6A1C2000CE0D3 /* Debug */,
+				F1E21D072CF6A1C2000CE0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1E21D082CF6A1C2000CE0D3 /* Build configuration list for PBXNativeTarget "ProjectSculpt Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E21D092CF6A1C2000CE0D3 /* Debug */,
+				F1E21D0A2CF6A1C2000CE0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1E21D0B2CF6A1C2000CE0D3 /* Build configuration list for PBXNativeTarget "ProjectSculpt Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E21D0C2CF6A1C2000CE0D3 /* Debug */,
+				F1E21D0D2CF6A1C2000CE0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1E21CCF2CF6A1BC000CE0D3 /* Project object */;
+}
