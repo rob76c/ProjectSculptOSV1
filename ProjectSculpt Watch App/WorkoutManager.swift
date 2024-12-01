@@ -14,7 +14,7 @@ class WorkoutManager: NSObject, ObservableObject {
         didSet {
             //Sheet Dismissed
             if showingSummaryView == false {
-                selectedWorkout = nil
+                resetWorkout()
             }
         }
     }
@@ -107,6 +107,7 @@ class WorkoutManager: NSObject, ObservableObject {
     @Published var heartRate: Double = 0
     @Published var activeEnergy: Double = 0
     @Published var distance: Double = 0
+    @Published var workout: HKWorkout?
     
     func updateForStatistics(_ statistics:HKStatistics?) {
         guard let statistics = statistics else {return}
@@ -129,6 +130,17 @@ class WorkoutManager: NSObject, ObservableObject {
             }
         }
     }
+    
+    func resetWorkout() {
+        selectedWorkout = nil
+        builder = nil
+        session = nil
+        workout = nil
+        activeEnergy = 0
+        averageHeartRate = 0
+        heartRate = 0
+        distance = 0
+    }
 
 }
 
@@ -149,6 +161,9 @@ extension WorkoutManager: HKWorkoutSessionDelegate {
             builder?.endCollection(withEnd: date) { success, error in
                 self.builder?.finishWorkout {
                     (workout, error) in
+                    DispatchQueue.main.async {
+                        self.workout = workout
+                    }
                 }
             }
         }
